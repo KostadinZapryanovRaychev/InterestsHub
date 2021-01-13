@@ -1,0 +1,25 @@
+.MainContent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+    
+}
+
+.Test {
+    width: 700px;
+    padding: 16px;
+    text-align: center;
+    border: 3px solid #eee;
+    box-shadow: 0 2px 3px rgb(196, 173, 173);
+    margin: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    flex-flow: row;
+    font-size: 18px;
+    font-family: cursive;
+}

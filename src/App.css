@@ -1,0 +1,66 @@
+.App {
+  width: 100 vw;
+  height: 100 vh;
+  background-color: blue;
+
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.Sidebarr
+{
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+}
+
+.SidebarrList
+{
+  height: auto;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(23, 51, 51);
+
+}
+
+.SidebarrList .row{
+
+  width: 100%;
+  height:60px;
+  border:1px solid black ; 
+  list-style-type: none ;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+
+}
+
+
+.SidebarrList.row
+.SidebarrList .row:hover {
+  cursor: pointer;
+ 
+}
+
+.row #icon {
+   flex:30%;
+   display: grid;
+   place-items: center;
+}
+.row #title {
+  flex:70%;
+  
+}
+.SidebarrList:hover {
+ cursor: pointer;
+
+}

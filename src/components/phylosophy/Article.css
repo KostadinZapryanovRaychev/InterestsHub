@@ -1,0 +1,19 @@
+
+
+.Article:hover,
+.Article:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
+
+.devicer {
+    width: 20em;
+    display: block;
+    height: 5px;
+    background-color: #4b4b4d;
+    margin: 60px auto 0;
+  }

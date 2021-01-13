@@ -1,0 +1,39 @@
+.image {
+    display: block;
+    margin: 0 auto;
+  }
+  .image[wobble='1'] {
+    animation: wobble 1s 1;
+  }
+  
+  @keyframes wobble {
+    25% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-30deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .Test {
+    width: 700px;
+    padding: 16px;
+    text-align: center;
+    border: 3px solid #eee;
+    box-shadow: 0 2px 3px rgb(196, 173, 173);
+    margin: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    flex-flow: row;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
